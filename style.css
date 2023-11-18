@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1577387196112-579d95312c6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2FsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+background-position: top;
+height: 140vh;
+background-color: #2C2E43;
+margin: 0px;
+}
+
+#head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+}
+.heading{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color:#FFB830;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color:   rgb(100%, 84%, 14%, 0.9);
+    padding: 10px;
+    margin: 0 auto;
+}
+.par{
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+margin: 20px 0px 5px 0px;
+}
+.parmoney{
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+margin: 20px 0px 5px 0px;
+}
+input{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    border: none;
+}
+#btn{
+    background: rgb(251,233,63);
+background: radial-gradient(circle, rgba(251,233,63,0.47102591036414565) 0%, rgba(23,22,22,1) 100%);
+margin: 25px 10px 10px;
+padding: 8px 25px;
+text-align: center;
+color: #fff;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+border-radius: 30px;
+border: none;
+box-shadow: 0 0 20px #eee;
+}
+.show{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: none;
+}
+img{
+    margin-bottom: 20px;
+}
+
+@media all and (max-width:800px){
+    .heading{
+        text-align: center;
+ 
+    }
+    .container{
+        width: 80%;
+    }
+
+}
+@media all and (max-width:500px){
+    body{
+        height: 110vh;
+    }
+    .heading{
+        text-align: center;
+        font-size: 40px;
+    }
+    input{
+     width: 80%;
+    }
+    .container{
+        width: 90%;
+    }
+}
+@media all and (max-width:300px){
+    .heading{
+        text-align: center;
+        font-size: 30px;
+    }
+    input{
+        width: 80%;;
+       }
+    .container{
+        width: 90%;
+    }
+}

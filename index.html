@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sale %</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="head">
+     <h1 class="heading ">Калькулятор скидок</h1>
+     <img src="https://img.icons8.com/ios-glyphs/2x/sale--v2.gif">
+     
+    
+</div>
+    <div class="container">
+     <p class="par"> Цена</p>
+     <input  id="price"   type="number" placeholder="Цена">
+
+     <p class="par"> Скидка, %</p>
+     <input  id="sale"   type="number" placeholder="Скидка">
+
+     <button id="btn"> Посчитать</button>
+
+     <p class="par"> Цена со скидкой</p>
+
+
+     <div class="show">
+     <span class="par" id="newPrice"> </span>
+     <span class="parmoney" > руб.</span>
+
+     </div>
+
+     
+     <p class="par"> Ваша экономия</p>
+
+     <div class="show">
+        <span class="par" id="saleAmount"> </span>
+        <span class="parmoney" > руб.</span>
+   
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="script.js"></script> 
+</body>
+</html>
